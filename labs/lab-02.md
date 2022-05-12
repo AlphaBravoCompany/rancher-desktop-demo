@@ -1,6 +1,6 @@
 # Lab 02 - Running and Modifying a Workload
 
-This lab will show you how to work with source code, container and Kubernetes on your local machine.
+This lab will show you how to work with source code, containers and Rancher Desktop Kubernetes on your local machine.
 
 ## Agenda:
 
@@ -36,7 +36,7 @@ This lab will show you how to work with source code, container and Kubernetes on
 
 - `helm install hello-world .`
 
-2. To see that the deployment is running, open the Dashboard and navigate to `Workload` -> `Pods`. Or you can run `kubectl get pods`.
+2. To see that the deployment is running, open the Rancher Desktop Dashboard and navigate to `Workload` -> `Pods`. Or you can run `kubectl get pods`.
 
 3. To view the page, open `Port Forwarding` and port forward the `hello-world-dc-hello-world-chart` service.  Note the local port the interface provides. Open your browser and visit localhost:port to see the page display `Hello Rancher Desktop`.
 
