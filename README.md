@@ -6,6 +6,8 @@
 - Docs: https://docs.rancherdesktop.io/
 - Github: https://github.com/rancher-sandbox/rancher-desktop/
 
+![Rancher Desktop Settings](https://rancherdesktop.io/images/kubernetes-settings.png)
+
 ## AlphaBravo Rancher Desktop Demo Slides
 
 Please find the Slides in the following link. They may be updated as the product matures. 
