@@ -46,7 +46,7 @@ But, this is supposed to be a `Hello World` app...
 
 1. Install the `Remote - Containers` extension from Microsoft. The `dc-hello-world` project includes a `.devcontainer` directory that allows you to do all development inside a container without needing to install addl tools on your local machine.
 
-2. Open the `dc-hello-world-chart` directory in VScode. When prompted with `Folder contains a Dev Container configuration file. Reopen folder to develop in a container (learn more).`, chose `Reopen in container`.
+2. Open the `dc-hello-world` directory in VScode. When prompted with `Folder contains a Dev Container configuration file. Reopen folder to develop in a container (learn more).`, chose `Reopen in container`.
 
 3. Review the `Dockerfile` file and note that this is a multi-stage build. This allows use to only include the final binary in the image and not the GoLang build tools. More about this later.
 

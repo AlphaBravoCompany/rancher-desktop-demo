@@ -2,8 +2,8 @@
 
 Once you have installed Rancher 1.3, it is time for you to get comfortable with the interface.
 
-1. With Rancher Desktop lets explore the settings. Click on the RD icon and click "settings". For the sake of being platform agnostic, we will skip OS specific settings.
-2. Under `Kubernetes Settings` you will should see a number of option for the version of Kubernetes you want to run, the API port to expose, the container runtime you want to use, CPU and RAM allocation, and more. This is where you can fine tune your deployment as much as you like to suite your current development needs.
+1. With Rancher Desktop lets explore the settings. Click on the RD icon and click "settings". For the sake of trying to be platform agnostic, we will skip some of the OS specific settings.
+2. Under `Kubernetes Settings` you will should see a number of option for the version of Kubernetes you want to run, the API port to expose, the container runtime you want to use, CPU and RAM allocation (Lima VM only), and more. This is where you can fine tune your deployment as much as you like to suite your current development needs.
 
 
 ![Kubernetes Settings](assets/rd-kubernetes-settings.png)
