@@ -1,8 +1,6 @@
 # Rancher Desktop Demo / Workshop
 
-Container Management and Kubernetes on the Desktop.
-
-Rancher Destop is an open-source desktop application for Mac, Windows and Linux. Rancher Desktop runs Kubernetes and container management on your desktop. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images using either containerd or Moby (dockerd). The container images you build can be run by Kubernetes immediately without the need for a registry.
+**Rancher Desktop** is an open-source desktop application for Mac, Windows and Linux. Rancher Desktop runs Kubernetes and container management on your desktop. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images using either containerd or Moby (dockerd). The container images you build can be run by Kubernetes immediately without the need for a registry.
 
 - Website: https://rancherdesktop.io/
 - Docs: https://docs.rancherdesktop.io/
@@ -30,7 +28,7 @@ In addition to being able to choose the version of Kubernetes you deploy, you al
 
 If you choose `containerd`, then `nerdctl` will be you new way of pushing, pulling and building images files as well as working with docker-compose files.
 
-Since many of the commands for `nerdctl` are identical to the `docker` commands you might be used to running, you may be able to `alias nerctl=docker`.
+Since many of the commands for `nerdctl` are identical to the `docker` commands you might be used to running, you may be able to alias `nerctl` to `docker`.
 
 More information on using `nerdctl` can be found at the following links:
 
