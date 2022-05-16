@@ -12,7 +12,7 @@
 
 Please find the Slides in the following link. They may be updated as the product matures. 
 
-Rancher Desktop Slides: /assets/Rancher-Desktop-1.3-Preso.pdf
+Rancher Desktop Slides: [Rancher Desktop 1.3 Preso](assets/Rancher-Desktop-1.3-Preso.pdf)
 
 ## Rancher Desktop Labs **BETA**
 
