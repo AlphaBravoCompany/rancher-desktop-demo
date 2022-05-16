@@ -44,11 +44,11 @@ But, this is supposed to be a `Hello World` app...
 
 ## Modify the code and build a new image
 
-1. Install the `Remote - Containers` extension from Microsoft. The `dc-hello-world` project includes a `.devcontainer` directory that allows you to do all development inside a container without needing to install addl tools on your local machine.
+1. Install the [`Remote - Containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension from Microsoft. The `dc-hello-world` project includes a `.devcontainer` directory that uses the `Remote - Containers` extension and allows you to do all development inside a container without needing to install additional tools on your local machine.
 
-2. Open the `dc-hello-world` directory in VScode. When prompted with `Folder contains a Dev Container configuration file. Reopen folder to develop in a container (learn more).`, chose `Reopen in container`.
+2. Open the `dc-hello-world` directory in VSCode. When prompted with `Folder contains a Dev Container configuration file. Reopen folder to develop in a container (learn more).`, chose `Reopen in container`.
 
-3. Review the `Dockerfile` file and note that this is a multi-stage build. This allows use to only include the final binary in the image and not the GoLang build tools. More about this later.
+3. Once the project has opened in the Dev container, review the `Dockerfile` file and note that this is a multi-stage build. This allows use to only include the final binary in the image and not the GoLang build tools. More about this later.
 
 4. Open the `main.go` file and find the line that begins with `const out`. Change `Hello Rancher Desktop` to `Hello World` and save the file.
 

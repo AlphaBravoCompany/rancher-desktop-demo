@@ -12,7 +12,7 @@
 
 Please find the Slides in the following link. They may be updated as the product matures. 
 
-Rancher Desktop Slides: https://docs.google.com/presentation/d/1kdM3yKWAioWd0zMSrYcxJFp3iTrDQX4rx3-WI_2HyN4/edit?usp=sharing
+Rancher Desktop Slides: ./assets/Rancher-Desktop-1.3-Preso.pdf
 
 ## Rancher Desktop Labs **BETA**
 
@@ -20,9 +20,17 @@ If you would like to follow some hands on labs to get started working with Ranch
 
 Labs are currently in Beta and being tested for functionality and accuracy. Your mileage may vary.
 
+### Lab Requirements
+
+- Rancher Desktop installed on your Windows, Mac or Linux machine.
+- Approx 10GB local disk space for container images
+- A reasonably fast internet connection for container image pulls
+
 ## Installing Rancher Desktop
 
-Rancher desktop supports MacOS, Windows and Linux systems. To get started installing, visit here: https://docs.rancherdesktop.io/getting-started/installation/
+Rancher desktop supports MacOS, Windows and Linux systems. 
+
+To get started installing, visit here: https://docs.rancherdesktop.io/getting-started/installation/
 
 ## Nerdctl and Docker commands.
 
@@ -38,6 +46,8 @@ More information on using `nerdctl` can be found at the following links:
 - Working with Containers: https://docs.rancherdesktop.io/tutorials/working-with-containers
 
 ## About Alphabravo
+
+![](assets/ablogo.png)
 
 **AlphaBravo** provides products, services, and training for Cybersecurity, Kubernetes, Cloud, and DevSecOps. AlphaBravo is a Rancher training and services partner.
 
